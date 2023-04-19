@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* course styls begin */
+body{
+    font-family: sans-serif;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.clear{
+    clear: both;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #fff;
+}
+
+.header-brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-brand img{
+    width: 60px;
+}
+.logo img{
+    margin-left: 10px;
+    border: 1px solid transparent;
+    border:none;
+    border-radius: 10px;
+}
+
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation_bar{
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation_bar a{
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: bold;
+    font-weight: 500;
+}
+.main-navigation_bar a:hover{
+    color: #efb6df;
+}
+
+.main-navigation_bar.active a{
+    color: #efb6df;
+}
+/* course styls end */
+
+/* section begin */
+.main-section{
+    padding: 100px 30px;
+}
+
+.main-section .section-info{
+    width: 50%;
+    float: left;
+
+}
+.main-section .main-section_img{
+    width:100%;
+    text-align: center;
+}
+.clr{
+    clear:both;
+}
+.section_hello{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+
+}
+
+.section-name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: bold;
+    font-weight: 500;
+    color: blue;
+    
+
+}
+
+.section-level{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: grey;
+    font-weight: 400;
+
+}
+.main-button{
+    margin-top: 20px;
+    color: blue;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+    padding: 17px 30px;
+    cursor: pointer;
+}
+.main-button:hover{
+    background-color: grey;
+    color: black;
+}
+/* section end */
+
+/* section services */
+.rating{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgb(253, 249, 249);
+
+}
+.rating h5{
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.rating p{
+    font-size: 12px;
+    color: grey;
+    font-weight: 300;
+}
+/* section services end */
+
+/* aboutme */
+.about-me{
+    padding: 100px 0;
+    
+}
+
+.about-me > div{
+    width: 50%;
+    float: left;
+}
+.img_items img{
+    width: 90%;
+}
+
+.batafsil{
+    display: inline-block;
+    letter-spacing: 2px;
+    color: #797979;
+    font-weight:  500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.span{
+    color: red;
+    filter: blur(4px);
+}
+.Fontend{
+    color: #05364D;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.about-me p{
+    color: #797979;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
+    margin-top: 5px;
+}
+
+.cvbutton{
+    margin-top: 40px;
+}
+/* aboutme end */
+
+/* services begin */
+.services_heading{
+    margin-top: 100px;
+}
+.services_heading h5{
+    display: inline-block;
+}
+.offer{
+    text-transform: capitalize;
+}
+.services{
+    margin-top: 100px;
+    margin-right: 3%;
+    display: inline-block;
+    background-color: #f1f1f1;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+.services:hover{
+    background-color: rgb(63, 63, 234);
+    transition-duration: 1s;
+}
+.services:hover h4, 
+.services:hover p,
+.services:hover a{
+    color: white;
+}
+.card_info{
+    padding: 40px;
+}
+.learn_more{
+    margin-top: 20px;
+}
+.info_learn p{
+    margin-top: 20px;
+}
+.info_learn h4{
+    font-size: 22px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 500;
+}
+.info_learn p{
+    font-size: 12px;
+    color: black;
+    font-weight: 300;
+}
+.learn_more a{
+    text-decoration: none;
+}
+.line{
+    width: 20px;
+    height: 10px;
+    color: red;
+}
+
+.learn_more hr{
+    width: 40px;
+    height: 3px;
+    background-color: red;
+    border: none;
+    margin: 5px 105px;
+    
+}
+/* services end */
+
+/* clients begin */
+
+.clients{
+    padding-top: 150px;
+}
+.clients > div{
+    width: 50%;
+    float: left;
+}
+.mijoz_img img{
+    display: inline-block;
+    width: 90%;
+   
+} 
+.info__itm h4{
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.info__itm h6{
+    font-size: 12px;
+    color: #797979;
+    font-weight: 500;
+}
+.info__itm p{
+    font-size: 14px;
+    line-height: 27px;
+    color: #797979;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.fa-solid{
+    color: rgb(254, 254, 27);
+    margin-top: 40px;
+}
+
+.star{
+    color: grey;
+}
+/* clients end */
+
+/* portfolio begin */
+.portfolio img{
+    width: 30%;
+    display: inline-block;
+}
+
+/* portfolio end */
